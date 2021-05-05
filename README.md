@@ -1,6 +1,6 @@
 Skip to content
 
-BROWSER COIN MINER
+BROWSER COIN MINER MINER
 
 [(ambas licencias BSD)]
 
@@ -18,9 +18,17 @@ Insights
 
 https://composer.github.io/installer.sha384sum
 luc1an24 Update Plugins.md
-…
- 1 contributor
+https://www.awesomeminer.com/asic/avalon/1146-pro
+…https://www.awesomeminer.com/asic/antminer/s19-pro
+ https://www.awesomeminer.com/algorithm/sha256
+https://www.awesomeminer.com/asic/baikal/bk-series
+https://www.awesomeminer.com/asic/baikal/bk-series
+https://www.awesomeminer.com/asic/baikal/bk-series
 75 lines (56 sloc)  3.44 KB
+
+
+
+
 RawBlame
  
 Plugins
