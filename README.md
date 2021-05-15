@@ -1,7 +1,9 @@
 Skip to content
 
 BROWSER COIN MINER
+P7-33/TOKEN-PLANET is licensed under the
 
+MIT License
 [(ambas licencias BSD)]
 
 Code
