@@ -1,7 +1,7 @@
 Skip to content
 
 BROWSER COIN MINER
-
+https://github.com/P7-33/BROSER-COIN.wiki.git
 [(ambas licencias BSD)]
 
 Code
