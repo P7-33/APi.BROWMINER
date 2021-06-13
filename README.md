@@ -92,10 +92,10 @@ ambas licencias BSD
   
 
 ```
-    ____  __           __        __          _     
-   / __ )/ /___  _____/ /_______/ /_  ____ _(_)____:
-  / __  / / __ \/ ___/ //_/ ___/ __ \/ __ `/ / __
- / /_/ / / /_/ / /__/ ,< / /__/ / / / /_/ / / /    
+    ____  __           __                      
+   / __ )/ /___  _____/ /_____   
+  / __  / / __ \/ ___/ //_/ ___/   
+ / /_/ / / /_/ / /__/ ,< / /__/     
 /_____/_/\____/\___/_/|_|\___/
 
 # Table of contents
@@ -213,9 +213,9 @@ Tt
 
 
 
-# <a name=">pathom</a> Introduction
+# <a name=">browser io.com</a> Introduction
 
-Blockchair API provides developers with access to data contained in [18 different blockchains](#link_M01). Unlike other APIs, Blockchair also supports numerous analytical queries like filtering, sorting, and aggregating blockchain data.
+Browser API provides developers with access to data contained in [18 different blockchains](#link_M01). Unlike other APIs,  also supports numerous analytical queries like filtering, sorting, and aggregating blockchain data.
 
 Here are some examples of what you can build using our API:
 
@@ -225,22 +225,22 @@ Here are some examples of what you can build using our API:
 * A solid academic research
 * Some fun stuff like finding the first Bitcoin block over 1 megabyte in size
 
-For some tasks like extracting lots of  data (e.g. all transactions over a 2 month period) it's better to use our Database dumps feature instead (see https://blockchair.com/dumps for documentation) — it's possible to download the entire database dumps in TSV format and insert the data onto your own database server (like Postgresql or whatever) to further analyze it.
+For some tasks like extracting lots of  data (e.g. all transactions over a 2 month period) it's better to use our Database dumps feature instead (see https://browser io.com/dumps for documentation) — it's possible to download the entire database dumps in TSV format and insert the data onto your own database server (like Postgresql or whatever) to further analyze it.
 
-Almost every API endpoint description is accompanied with an example visualization of the data on our website (https://.com), and it's also worth it to note that the website is working completely using our API (yes, even the data for charts is pulled from one of our endpoints, and it's fully customizable).
+Almost every  Browser API endpoint description is accompanied with an example visualization of the data on our website (https://.com), and it's also worth it to note that the website is working completely using our API (yes, even the data for charts is pulled from one of our endpoints, and it's fully customizable).
 
-Blockchair cares about user privacy, we neither collect nor share with anyone your personal data rather than for statistical purposes. That includes using the API as well. Please refer to our Privacy policy: https://.com/privacy. Please also check out our Terms of service available here: https://.com/terms — by using our API, you are agreeing to these terms.
+Browser cares about user privacy, we neither collect nor share with anyone your personal data rather than for statistical purposes. That includes using the B API as well. Please refer to our Privacy policy: https://.com/privacy. Please also check out our Terms of service available here: https://.com/terms — by using our API, you are agreeing to these terms.
 
-We have a public tracker for bugs, issues, and questions available on GitHub: https://github.com//Blockchair.Support/issues — please use it or contact us by [any other means available](#link_M7).
+We have a public tracker for bugs, issues, and questions available on GitHub: https://Browser io.com/browser.Support/issues — please use it or contact us by [any other means available](#link_M7).
 
-Our API is free to try under some limitations, and we have a variety of premium plans. Please check out the information about [the limits and plans](#link_M05).
+Our Browser API is free to try under some limitations, and we have a variety of premium plans. Please check out the information about [the limits and plans](#link_M05).
 
 
 
-## <a name=""></a> Supported  and second layers
+## <a name="browser io.com"></a> Supported  and second layers
 
 As of today, our API supports   (17 mainnets and 2 testnets) divided into 9 groups:
-* Bitcoin-like  (Bitcoin, Bitcoin Cash, Litecoin, Bitcoin SV, Dogecoin, Dash, Groestlcoin, Zcash, Bitcoin ABC, Bitcoin Testnet), also known as UTXO-based blockchains
+* Bitcoin-like  (Bitcoin, Bitcoin Cash, Litecoin, Bitcoin SV, Dogecoin, Dash, Groestlcoin, Zcash, Bitcoin ABC, Bitcoin Testnet), also known as Browser API-based blockchains
 * Ethereum-like  (Ethereum, Ethereum Goerli Testnet)
 * Ripple-like  (Ripple)
 * Stellar-like  (Stellar)
@@ -254,34 +254,34 @@ Within a group, there's no or little difference between the set of available end
 
 Here's the list of available mainnets:
 
-|  | Group | API path prefix | Support status |
+|  | Group |Browser API path prefix | Support status |
 |----------|------|----------|-------------|
-| Bitcoin | Bitcoin-like | `https://api..com/bitcoin` | Full support |
-| Bitcoin Cash | Bitcoin-like | `https://api..com/bitcoin-cash` | Full support |
-| Ethereum | Ethereum-like | `https://api..com/ethereum` | Full support |
-| Litecoin | Bitcoin-like | `https://api..com/litecoin` | Full support |
-| Bitcoin SV | Bitcoin-like | `https://api..com/bitcoin-sv` | Full support |
-| Dogecoin | Bitcoin-like | `https://api..com/dogecoin` | Full support |
-| Dash | Bitcoin-like | `https://api..com/dash` | Full support |
-| Ripple | Ripple-like | `https://api..com/ripple` | Alpha mode, possible compatibility-breaking changes |
-| Groestlcoin | Bitcoin-like | `https://api..com/groestlcoin` | Full support at least till January 1st, 2021 |
-| Stellar | Stellar-like | `https://api.blockchair.com/stellar` | Alpha mode, possible compatibility-breaking changes |
-| Monero | Monero-like | `https://api..com/monero` | Alpha mode, possible compatibility-breaking changes |
-| Cardano | Cardano-like | `https://api..com/cardano` | Alpha mode, possible compatibility-breaking changes |
-| Zcash | Bitcoin-like | `https://api..com/zcash` | Full support |
-| Mixin | Mixin-like | `https://api./mixin` | Full support at least till April 24th, 2021 |
+| Bitcoin | Bitcoin-like | `https://api.browser io.com/bitcoin` | Full support |
+| Bitcoin Cash | Bitcoin-like | `https://api.browser io.com/bitcoin-cash` | Full support |
+| Ethereum | Ethereum-like | `https://api.browser io.com/ethereum` | Full support |
+| Litecoin | Bitcoin-like | `https://api.browser io.com/litecoin` | Full support |
+| Bitcoin SV | Bitcoin-like | `https://api.browser io.com/bitcoin-sv` | Full support |
+| Dogecoin | Bitcoin-like | `https://api.browser io.com/dogecoin` | Full support |
+| Dash | Bitcoin-like | `https://api.browser io.com/dash` | Full support |
+| Ripple | Ripple-like | `https://api.browser io.com/ripple` | Alpha mode, possible compatibility-breaking changes |
+| Groestlcoin | Bitcoin-like | `https://api.browser io.com/groestlcoin` | Full support at least till January 1st, 2021 |
+| Stellar | Stellar-like | `https://api.browser io.com/stellar` | Alpha mode, possible compatibility-breaking changes |
+| Monero | Monero-like | `https://api.browser io.com/monero` | Alpha mode, possible compatibility-breaking changes |
+| Cardano | Cardano-like | `https://api.browser io.com/cardano` | Alpha mode, possible compatibility-breaking changes |
+| Zcash | Bitcoin-like | `https://api.browser io.com/zcash` | Full support |
+| Mixin | Mixin-like | `https://api./Browser coin | Full support at least till April 24th, 2021 |
 | Tezos | Tezos-like | `https://api..com/tezos` | Alpha mode, possible compatibility-breaking changes |
 | EOS | EOS-like | `https://api..com/eos` | Alpha mode, possible compatibility-breaking changes |
-| Bitcoin ABC | Bitcoin-like | `https://api..com/bitcoin-abc` | Beta mode, possible instability. Also known as Bitcoin Cash ABC. |
+| Bitcoin ABC | Bitcoin-like | `https://api.browser io.com/bitcoin-abc` | Beta mode, possible instability. Also known as Bitcoin Cash ABC. |
 
-Please read our statement on the November 15th, 2020 Bitcoin Cash split: https://twitter.com/Blockchair/status/1324424632179576832. It is expected that Bitcoin ABC's hashrate will be very low so 51% attacks are possible. We'll be running Bitcoin ABC in beta mode and we don't guarantee neither its stability, nor that we'll run it if the chain won't be used by businesses. Once the situation becomes more stable we'll update the documentation. At the moment, other parts of the documentation don't reflect Bitcoin ABC support, so please assume that for every `bitcoin-cash` endpoint there's a `bitcoin-abc` equivalent except for `https://api..com/bitcoin-cash/nodes`.
+Please read our statement on the November 15th, 2020 Bitcoin Cash split: https://twitter.com/browser/status/1324424632179576832. It is expected that Bitcoin ABC's hashrate will be very low so 51% attacks are possible. We'll be running Bitcoin ABC in beta mode and we don't guarantee neither its stability, nor that we'll run it if the chain won't be used by businesses. Once the situation becomes more stable we'll update the documentation. At the moment, other parts of the documentation don't reflect Bitcoin ABC support, so please assume that for every `bitcoin-cash` endpoint there's a `bitcoin-abc` equivalent except for `https://api..com/bitcoin-cash/nodes`.
 
 There are also following testnets supported which are technically considered as separate blockchains:
 
-| Blokchain | Group | API path prefix | Support status |
+| Blokchain | Group |Browser API path prefix | Support status |
 |-----------|------|----------|-------------|
-| Bitcoin Testnet | Bitcoin-like | `https://api..com/bitcoin/testnet` | Full support |
-| Ethereum Goerli Testnet | Ethereum-like | `https://api.no.com/ethereum/testnet` | Development mode, no guaranteed stability |
+| Bitcoin Testnet | Bitcoin-like | `https://api.browser io.com/bitcoin/testnet` | Full support |
+| Ethereum Goerli Testnet | Ethereum-like | `https://api.browser io.com/ethereum/testnet` | Development mode, no guaranteed stability |
 
 We aim to support more  (and their testnets) in future to cover as many users as possible. We don't disclose which blockchains we'll add next and how we choose them, but our main markers are daily number of real transactions and market capitalization. If you're representing a coin community which would like to add its blockchain to our platform, we'd be happy to talk.
 
@@ -292,9 +292,9 @@ As a general rule, if we add a blockchain to our platform, it means we'll suppor
 * If a  is community-backed, we guarantee support till some specified date (this is reflected in the tables above). If its community decides not to prolong the agreement with  after that date, we may either continue to support that  for free, or drop support for it;
 * If we see that a particular blockchain became unpopular on our platform, we may terminate its support with a 3 month notice.
 
-For some of the blockchains we support we don't store full historical data. These blockchains are: `Ripple`, `Stellar`, `EOS`. That means you won't be able to query some old blocks, and the transaction list for an address may not show some old transactions. See [Available block ranges](#link_510) API endpoint to get data on which blocks are available in these . All other  have full historical data. It's our intent to have full historical data for all .
+For some of the blockchains we support we don't store full historical data. These blockchains are: `Ripple`, `Stellar`, `EOS`. That means you won't be able to query some old blocks, and the transaction list for an address may not show some old transactions. See [Available block ranges](#link_510) Browser API endpoint to get data on which blocks are available in these . All other  have full historical data. It's our intent to have full historical data for all .
 
-Blockchair API also supports **2 layer 2 solutions** (tokens) divided into 2 groups:
+BROWSER API also supports **2 layer 2 solutions** (tokens) divided into 2 groups:
 
 * Omni-like tokens (Omni Layer on top of Bitcoin)
 * ERC-20-like tokens (ERC-20's on top of Ethereum)
@@ -331,111 +331,111 @@ This is the full list of available API endpoints.
 | Endpoint path                             | Docs | Base request cost | Status |
 | ----------------------------------------------- | :----------------: | -----------------------------: | :---------------------------------------------: |
 | **General stats** | — | — | — |
-| `https://api..com/stats`              | [👉](#link_000) | `1` | Stable |
-| `https://api..com/{:btc_chain}/stats` | [👉](#link_001) | `1` | Stable |
-| `https://api..com/{:eth_chain}/stats` | [👉](#link_002) | `1` | Stable |
-| `https://api..com/{:xrp_chain}/stats` | [👉](#link_003) | `1` | Stable |
-| `https://api..com/{:xlm_chain}/stats` | [👉](#link_004) | `1` | Stable |
-| `https://api..com/{:}/stats` | [👉](#link_006) | `1` | Stable |
-| `https://api..com/{:ada_chain}/stats` | [👉](#link_007) | `1` | Stable |
-| `https://api./{:btc_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_100) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:btc_chain}/raw/block/{:height}₀` | [👉](#link_101) | `1` | Unstable |
-| `https://api..com/{:btc_chain}/raw/block/{:hash}₀` | [👉](#link_101) | `1` | Unstable |
-| `https://api..com/{:btc_chain}/blocks?{:query}` | [👉](#link_102) | `2` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/block/{:height}₀` | [👉](#link_103) | `1` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/block/{:hash}₀` | [👉](#link_103) | `1` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/blocks/{:height}₀,...,{:height}ᵩ` | [👉](#link_103) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_103) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:eth_chain}/raw/block/{:height}₀` | [👉](#link_104) | `1` | Unstable |
-| `https://api..com/{:eth_chain}/raw/block/{:hash}₀` | [👉](#link_104) | `1` | Unstable |
-| `https://api..com/{:eth_chain}/blocks?{:query}` | [👉](#link_105) | `2` | Stable |
-| `https://api..com/{:xrp_chain}/raw/ledger/{:height}₀` | [👉](#link_106) | `1` | Alpha |
-| `https://api..com/{:xrp_chain}/raw/ledger/{:hash}₀` | [👉](#link_106) | `1` | Alpha |
-| `https://api..com/:xlm_chain}/raw/ledger/{:height}₀` | [👉](#link_107) | `1` | Alpha |
-| `https://api..com/{:xmr_chain}/raw/block/{:height}₀` | [👉](#link_109) | `1` | Alpha |
-| `https://api..com/{xmr_chain}/raw/block/{:hash}₀` | [👉](#link_109) | `1` | Alpha |
-| `https://api..com/{:}/raw/block/{:height}₀` | [👉](#link_110) | `1` | Alpha |
-| `https://api..com/{:}/raw/block/{:hash}₀` | [👉](#link_110) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/snapshot/{:height}₀` | [👉](#link_111) | `1` | Alpha |
-| `https://api..com/{:}/raw/snapshot/{:hash}₀` | [👉](#link_111) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/snapshots?{:query}` | [👉](#link_407) | `1` | Alpha |
-| `https://api..com/{:xtz_chain}/raw/block/{:height}₀` | [👉](#link_112) | `1` | Alpha |
-| `https://api..com/{:xtz_chain}/raw/block/{:hash}₀` | [👉](#link_112) | `1` | Alpha |
-| `https://api..com/{:xtz_chain}/raw/blocks?{:query}` | [👉](#link_410) | `1` | Alpha |
-| `https://api..com/{:eos_chain}/raw/block/{:height}₀` | [👉](#link_113) | `1` | Alpha |
+| `https://api.browser io.com/stats`              | [👉](#link_000) | `1` | Stable |
+| `https://api.browser io.com/{:btc_chain}/stats` | [👉](#link_001) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/stats` | [👉](#link_002) | `1` | Stable |
+| `https://api.browser io.com/{:xrp_chain}/stats` | [👉](#link_003) | `1` | Stable |
+| `https://api.browser io.com/{:xlm_chain}/stats` | [👉](#link_004) | `1` | Stable |
+| `https://api.browser io.com/{:}/stats` | [👉](#link_006) | `1` | Stable |
+| `https://api.browser io.com/{:ada_chain}/stats` | [👉](#link_007) | `1` | Stable |
+| `https://api.browser io./{:btc_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_100) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:btc_chain}/raw/block/{:height}₀` | [👉](#link_101) | `1` | Unstable |
+| `https://api.browser io.com/{:btc_chain}/raw/block/{:hash}₀` | [👉](#link_101) | `1` | Unstable |
+| `https://api.browser io.com/{:btc_chain}/blocks?{:query}` | [👉](#link_102) | `2` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/block/{:height}₀` | [👉](#link_103) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/block/{:hash}₀` | [👉](#link_103) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/blocks/{:height}₀,...,{:height}ᵩ` | [👉](#link_103) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_103) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:eth_chain}/raw/block/{:height}₀` | [👉](#link_104) | `1` | Unstable |
+| `https://api.browser io.com/{:eth_chain}/raw/block/{:hash}₀` | [👉](#link_104) | `1` | Unstable |
+| `https://api.browser io.com/{:eth_chain}/blocks?{:query}` | [👉](#link_105) | `2` | Stable |
+| `https://api.browser io.com/{:xrp_chain}/raw/ledger/{:height}₀` | [👉](#link_106) | `1` | Alpha |
+| `https://api.browser io.com/{:xrp_chain}/raw/ledger/{:hash}₀` | [👉](#link_106) | `1` | Alpha |
+| `https://api.browser io.com/:xlm_chain}/raw/ledger/{:height}₀` | [👉](#link_107) | `1` | Alpha |
+| `https://api.browser io.com/{:xmr_chain}/raw/block/{:height}₀` | [👉](#link_109) | `1` | Alpha |
+| `https://api.browser io.com/{xmr_chain}/raw/block/{:hash}₀` | [👉](#link_109) | `1` | Alpha |
+| `https://api.browser io.com/{:}/raw/block/{:height}₀` | [👉](#link_110) | `1` | Alpha |
+| `https://api.browser io.com/{:}/raw/block/{:hash}₀` | [👉](#link_110) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/snapshot/{:height}₀` | [👉](#link_111) | `1` | Alpha |
+| `https://api.browser io.com/{:}/raw/snapshot/{:hash}₀` | [👉](#link_111) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/snapshots?{:query}` | [👉](#link_407) | `1` | Alpha |
+| `https://api.browser io.com/{:xtz_chain}/raw/block/{:height}₀` | [👉](#link_112) | `1` | Alpha |
+| `https://api.browser io.com/{:xtz_chain}/raw/block/{:hash}₀` | [👉](#link_112) | `1` | Alpha |
+| `https://api.browser io.com/{:xtz_chain}/raw/blocks?{:query}` | [👉](#link_410) | `1` | Alpha |
+| `https://api.browser io.com/{:eos_chain}/raw/block/{:height}₀` | [👉](#link_113) | `1` | Alpha |
 | **Transaction-related information and actions** | — | — | — |
-| `https://api..com/{:btc_chain}/dashboards/transaction/{:hash}₀` | [👉](#link_200) | `1` | Stable |
-| `https://api..com/{:btc_chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_200) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:btc_chain}/raw/transaction/{:hash}₀` | [👉](#link_201) | `1` | Unstable |
-| `https://api..com/{:}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
-| `https://api..com/{:}/transactions?{:query}` | [👉](#link_203) | `5` | Stable |
-| `https://api..com/{:btc_chain}/mempool/transactions?{:query}` | [👉](#link_203) | `2` | Stable |
-| `https://api..com/{eth_chain}/dashboards/transaction/{:hash}₀` | [👉](#link_204) | `1` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_204) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:eth_chain}/raw/transaction/{:hash}₀` | [👉](#link_205) | `1` | Unstable |
-| `https://api..com/{:eth_chain}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
-| `https://api..com/{:eth_chain}/transactions?{:query}` | [👉](#link_206) | `5` | Stable |
-| `https://api..com/{:eth_chain}/mempool/transactions?{:query}` | [👉](#link_206) | `2` | Stable |
-| `https://api..com/{:xrp_chain}/raw/transaction/{:hash}₀` | [👉](#link_207) | `1` | Alpha |
-| `https://api..com/{:xlm_chain}/raw/transaction/{:hash}₀` | [👉](#link_208) | `1` | Alpha |
-| `https://api..com/{:xmr_chain}/raw/transaction/{:hash}₀` | [👉](#link_210) | `1` | Alpha |
-| `https://api..com/{:}/raw/transaction/{:hash}₀` | [👉](#link_211) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/transaction/{:hash}₀` | [👉](#link_212) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
-| `https://api..com/{:xtz_chain}/raw/operation/{:hash}₀` | [👉](#link_213) | `1` | Alpha |
-| `https://api..com/{:eos_chain}/raw/transaction/{:hash}₀` | [👉](#link_214) | `1` | Alpha |
-| `https://api..com/{:eos_chain}/raw/transaction/({:block_height},{:hash})` | [👉](#link_214) | `1` | Alpha |
+| `https://api.browser io.com/{:btc_chain}/dashboards/transaction/{:hash}₀` | [👉](#link_200) | `1` | Stable |
+| `https://api.browser io.com/{:btc_chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_200) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:btc_chain}/raw/transaction/{:hash}₀` | [👉](#link_201) | `1` | Unstable |
+| `https://api.browser io.com/{:}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
+| `https://api.browser io.com/{:}/transactions?{:query}` | [👉](#link_203) | `5` | Stable |
+| `https://api.browser io.com/{:btc_chain}/mempool/transactions?{:query}` | [👉](#link_203) | `2` | Stable |
+| `https://api.browser io.com/{eth_chain}/dashboards/transaction/{:hash}₀` | [👉](#link_204) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_204) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:eth_chain}/raw/transaction/{:hash}₀` | [👉](#link_205) | `1` | Unstable |
+| `https://api.browser io.com/{:eth_chain}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/transactions?{:query}` | [👉](#link_206) | `5` | Stable |
+| `https://api.browser io.com/{:eth_chain}/mempool/transactions?{:query}` | [👉](#link_206) | `2` | Stable |
+| `https://api.browser io.com/{:xrp_chain}/raw/transaction/{:hash}₀` | [👉](#link_207) | `1` | Alpha |
+| `https://api.browser io.com/{:xlm_chain}/raw/transaction/{:hash}₀` | [👉](#link_208) | `1` | Alpha |
+| `https://api.browser io.com/{:xmr_chain}/raw/transaction/{:hash}₀` | [👉](#link_210) | `1` | Alpha |
+| `https://api.browser io.com/{:}/raw/transaction/{:hash}₀` | [👉](#link_211) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/transaction/{:hash}₀` | [👉](#link_212) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/push/transaction` (`POST`) | [👉](#link_202) | `1` | Stable |
+| `https://api.browser io.com/{:xtz_chain}/raw/operation/{:hash}₀` | [👉](#link_213) | `1` | Alpha |
+| `https://api.browser io.com/{:eos_chain}/raw/transaction/{:hash}₀` | [👉](#link_214) | `1` | Alpha |
+| `https://api.browser io.com/{:eos_chain}/raw/transaction/({:block_height},{:hash})` | [👉](#link_214) | `1` | Alpha |
 | **Address-related information** | — | — | — |
-| `https://api..com/{:btc_chain}/dashboards/address/{:address}₀` | [👉](#link_300) | `1` | Stable |
-| `https://api..com/{:btc_chain}/dashboards/addresses/{:address}₀,...,{:address}ᵩ` | [👉](#link_300) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:btc_chain}/addresses/balances` (`POST`, mass balance check) | [👉](#link_390) | `1 + 0.001*c` | Stable |
-| `https://api..com/:btc_chain}/dashboards/xpub/{:extended_key}` | [👉](#link_300) | `1 + 0.1*d` | Beta |
-| `https://api..com/{:btc_chain}/addresses?{:query}` | [👉](#link_301) | `2` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/address/{:address}₀` | [👉](#link_302) | `1` | Stable |
-| `https://api..com/{:xrp_chain}/raw/account/{:address}₀` | [👉](#link_303) | `1` | Alpha |
-| `https://api..com/{:xlm_chain}/raw/account/{:address}₀` | [👉](#link_304) | `1` | Alpha |
-| `https://api..com/{:ada_chain}/raw/address/{:address}₀` | [👉](#link_307) | `1` | Alpha |
-| `https://api..com/{xtz_chain}/raw/account/{:address}₀` | [👉](#link_308) | `1` | Alpha |
-| `https://api..com/{:eos_chain}/raw/account/{:address}₀` | [👉](#link_309) | `1` | Alpha |
-| `https://api..com/multi/dashboards/addresses/{:address}₀,...,{:address}ᵩ` | [👉](#link_391) | Complex | Alpha |
+| `https://api.browser io.com/{:btc_chain}/dashboards/address/{:address}₀` | [👉](#link_300) | `1` | Stable |
+| `https://api.browser io.com/{:btc_chain}/dashboards/addresses/{:address}₀,...,{:address}ᵩ` | [👉](#link_300) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:btc_chain}/addresses/balances` (`POST`, mass balance check) | [👉](#link_390) | `1 + 0.001*c` | Stable |
+| `https://api.browser io.com/:btc_chain}/dashboards/xpub/{:extended_key}` | [👉](#link_300) | `1 + 0.1*d` | Beta |
+| `https://api.browser io.com/{:btc_chain}/addresses?{:query}` | [👉](#link_301) | `2` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/address/{:address}₀` | [👉](#link_302) | `1` | Stable |
+| `https://api.browser io.com/{:xrp_chain}/raw/account/{:address}₀` | [👉](#link_303) | `1` | Alpha |
+| `https://api.browser io.com/{:xlm_chain}/raw/account/{:address}₀` | [👉](#link_304) | `1` | Alpha |
+| `https://api.browser io.com/{:ada_chain}/raw/address/{:address}₀` | [👉](#link_307) | `1` | Alpha |
+| `https://api.browser io.com/{xtz_chain}/raw/account/{:address}₀` | [👉](#link_308) | `1` | Alpha |
+| `https://api.browser io.com/{:eos_chain}/raw/account/{:address}₀` | [👉](#link_309) | `1` | Alpha |
+| `https://api.browser io.com/multi/dashboards/addresses/{:address}₀,...,{:address}ᵩ` | [👉](#link_391) | Complex | Alpha |
 | **Special entities** | — | — | — |
-| `https://api..com/{:btc_chain}/outputs?{:query}` | [👉](#link_400) | `10` | Beta |
-| `https://api..com/{:}/mempool/outputs?{:query}` | [👉](#link_400) | `2` | Beta |
-| `https://api..com/{:eth_chain}/dashboards/uncle/{:hash}₀` | [👉](#link_401) | `1` | Stable |
-| `https://api..com/{:eth_chain}/dashboards/uncles/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_401) | `1 + 0.1*c` | Stable |
-| `https://api..com/{:/uncles?{:query}` | [👉](#link_402) | `2` | Stable |
-| `https://api..com/:}/calls?{:query}` | [👉](#link_403) | `10` | Stable |
-| `https://api..com/{:xmr_chain}/outputs?{:query}` | [👉](#link_306) | `1` | Alpha |
-| `https://api..com/zcash/raw/validate?paymentdisclosure=zpd:...` | N/A | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/round/{:hash}` | [👉](#link_404) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/round/({:node_hash},{:id})` | [👉](#link_404) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/node/{:hash}` | [👉](#link_405) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/graph` | [👉](#link_406) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/mintings?{:query}` | [👉](#link_408) | `1` | Alpha |
-| `https://api..com/{:xin_chain}/raw/nodes?{:query}` | [👉](#link_409) | `1` | Alpha |
+| `https://api.browser io.com/{:btc_chain}/outputs?{:query}` | [👉](#link_400) | `10` | Beta |
+| `https://api.browser io.com/{:}/mempool/outputs?{:query}` | [👉](#link_400) | `2` | Beta |
+| `https://api.browser io.com/{:eth_chain}/dashboards/uncle/{:hash}₀` | [👉](#link_401) | `1` | Stable |
+| `https://api.browser io.com/{:eth_chain}/dashboards/uncles/{:hash}₀,...,{:hash}ᵩ` | [👉](#link_401) | `1 + 0.1*c` | Stable |
+| `https://api.browser io.com/{:/uncles?{:query}` | [👉](#link_402) | `2` | Stable |
+| `https://api.browser io.com/:}/calls?{:query}` | [👉](#link_403) | `10` | Stable |
+| `https://api.browser io.com/{:xmr_chain}/outputs?{:query}` | [👉](#link_306) | `1` | Alpha |
+| `https://api.browser io.com/zcash/raw/validate?paymentdisclosure=zpd:...` | N/A | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/round/{:hash}` | [👉](#link_404) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/round/({:node_hash},{:id})` | [👉](#link_404) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/node/{:hash}` | [👉](#link_405) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/graph` | [👉](#link_406) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/mintings?{:query}` | [👉](#link_408) | `1` | Alpha |
+| `https://api.browser io.com/{:xin_chain}/raw/nodes?{:query}` | [👉](#link_409) | `1` | Alpha |
 | **Special second layer protocol endpoints (Omni Layer and ERC-20 tokens)** | — | — | — |
-| `https://api..com/bitcoin/omni/stats` | [👉](#link_500) | `1` | Alpha |
-| `https://api..com/bitcoin/omni/dashboards/property/{:prorerty_id}` | [👉](#link_501) | `1` | Alpha |
-| `https://api..com//omni/properties` | [👉](#link_502) | `10` | Alpha |
-| `https://api..com/ethereum/erc-20/{:token_address}/stats` | [👉](#link_503) | `1` | Beta |
-| `https://api..com/ethereum/erc-20/{:token_address}/dashboards/address/{:address}` | [👉](#link_504) | `1` | Beta |
-| `https://api..com/ethereum/erc-20/tokens?{:query}` | [👉](#link_505) | `2` | Beta |
-| `https://api..com//erc-20/transactions?{:query}` | [👉](#link_506) | `5` | Beta |
-| `https://api..com/ethereum/erc-20/{:token_address}/utils/allowance?owner={:owner_address}&spender={:spender_address}` | N/A | `1` | Alpha |
+| `https://api.browser io.com/bitcoin/omni/stats` | [👉](#link_500) | `1` | Alpha |
+| `https://api.browser io.com/bitcoin/omni/dashboards/property/{:prorerty_id}` | [👉](#link_501) | `1` | Alpha |
+| `https://api.browser io.com//omni/properties` | [👉](#link_502) | `10` | Alpha |
+| `https://api.browser io.com/ethereum/erc-20/{:token_address}/stats` | [👉](#link_503) | `1` | Beta |
+| `https://api.browser io.com/ethereum/erc-20/{:token_address}/dashboards/address/{:address}` | [👉](#link_504) | `1` | Beta |
+| `https://api.browser io.com/ethereum/erc-20/tokens?{:query}` | [👉](#link_505) | `2` | Beta |
+| `https://api.browser io.com//erc-20/transactions?{:query}` | [👉](#link_506) | `5` | Beta |
+| `https://api.browser io.com/ethereum/erc-20/{:token_address}/utils/allowance?owner={:owner_address}&spender={:spender_address}` | N/A | `1` | Alpha |
 | **State changes** | — | — | — |
-| `https://api..com/{:btc_chain}/state/changes/block/{:block_id}` | [👉](#link_507) | `5` | Stable |
-| `https://api..com/{:btc_chain}/state/changes/mempool` | [👉](#link_507) | `10` | Stable |
-| `https://api..com/{:eth_chain}/state/changes/block/{:block_id}` | [👉](#link_507) | `5` | Stable |
+| `https://api.browser io.com/{:btc_chain}/state/changes/block/{:block_id}` | [👉](#link_507) | `5` | Stable |
+| `https://api.browser io.com/{:btc_chain}/state/changes/mempool` | [👉](#link_507) | `10` | Stable |
+| `https://api.browser io.com/{:eth_chain}/state/changes/block/{:block_id}` | [👉](#link_507) | `5` | Stable |
 | **Misc** | — | — | — |
-| `https://api..com/range` | [👉](#link_510) | `1` | Stable |
-| `https://api..com/tools/releases` | [👉](#link_511) | `1` | Stable |
-| `https://api..com/tools/halvening` | [👉](#link_512) | `1` | Stable |
-| `https://api..com/news` (News API) | [👉](#link_701) | `1` | Stable |
+| `https://api.browser io.com/range` | [👉](#link_510) | `1` | Stable |
+| `https://api.browser io.com/tools/releases` | [👉](#link_511) | `1` | Stable |
+| `https://api.browser io.com/tools/halvening` | [👉](#link_512) | `1` | Stable |
+| `https://api.browser io.com/news` (News API) | [👉](#link_701) | `1` | Stable |
 | **Network nodes** | — | — | — |
-| `https://api..com/nodes` | [👉](#link_508) | `1` | Stable |
-| `https://api..com/{:btc_chain}/nodes` | [👉](#link_508) | `1` | Stable |
-| **Special Premium API endpoints** | — | — | — |
-| `https://api..com/premium/stats?key={:api_key}` | [👉](#link_600) | `0` | Stable |
+| `https://api.browser io.com/nodes` | [👉](#link_508) | `1` | Stable |
+| `https://api.browser io.com/{:btc_chain}/nodes` | [👉](#link_508) | `1` | Stable |
+| **Special Premium  API endpoints** | — | — | — |
+| `https://api.browser io.com/premium/stats?key={:api_key}` | [👉](#link_600) | `0` | Stable |
 
 Please note there are some endpoints which aren't listed here (most of the times they have the `https://api.blockchair.com/internal` prefix), but used by our web interface — these endpoints aren't meant to be used by 3rd parties.
 
@@ -448,7 +448,7 @@ The base request cost is used only if there are no additional parameters include
 Requests to the API should be made through the HTTPS protocol by GET requests to the domain `api..com`. Here's an example request : `https://api..com/bitcoin/blocks?a=sum(generation)`
 
 ```bash
-> curl 'https://api..com/bitcoin/blocks?a=sum(generation)'
+> curl 'https://api.browser io.com/bitcoin/blocks?a=sum(generation)'
 {"data":[{"sum(generation)":1800957104497237}],"context":{"code":200,"source":"A","time":0.007825851440429688,"limit":10000,"offset":null,"rows":1,"pre_rows":1,"total_rows":1,"state":600767,"cache":{"live":true,"duration":60,"since":"2019-10-23 21:33:00","until":"2019-10-23 21:34:00","time":null},"api":{"version":"2.0.38","last_major_update":"2019-07-19 18:07:19","next_major_update":null,"documentation":"https:\/\/github.com\/\/.Support\/blob\/master\/API.md","":"Beginning July 19th, 2019 all applications using  API on a constant basis should apply for an API key (@.com)"}}}
 ```
 
@@ -461,9 +461,9 @@ Here are some considerations:
 
 
 
-## <a name="link_M04"></a> Basic API response
+## <a name="link_M04"></a> Basic BrowserAPI response
 
-API returns JSON-encoded data. Typically, the response is an array consisting of two subarrays:
+BrowserAPI returns JSON-encoded data. Typically, the response is an array consisting of two subarrays:
 
 * `data` — contains the data you requested
 
@@ -484,9 +484,9 @@ API returns JSON-encoded data. Typically, the response is an array consisting of
   * `context.rows` — contains the number of shown rows returned from the database (infinitable endpoints) 
   * `context.total_rows` — total number of rows meeting the request (infinitable endpoints)
   * `context.api` — array of data on the status of the API:
-    * `context.api.version` — version of API
-    * `context.api.last_major_update` — timestamp of the last update, that somehow has broken backward compatibility for "stable" endpoints
-    * `context.api.next_major_update` — timestamp of the next scheduled update, that can break compatibility, or` null`, if there are no updates scheduled
+    * `context.Browser api.version` — version of API
+    * `context.Browser api.last_major_update` — timestamp of the last update, that somehow has broken backward compatibility for "stable" endpoints
+    * `context Browser api.next_major_update` — timestamp of the next scheduled update, that can break compatibility, or` null`, if there are no updates scheduled
     * `context.api.documentation` — an URL to the latest version of documentation
     * `context.api.notice` — just a text notice which, for example, may describe upcoming changes (this is an optional field)
   * `context.cache` — array of info on whether the response comes from the cache or not
@@ -502,15 +502,15 @@ There are also some things which are the same across all endpoints:
 
 
 
-## <a name=""></a> API rate limits, API keys, and Premium API
+## <a name=""></a>  Browser API rate limits, API keys, and Premium API
 
 While we do allow to perform some amount of requests free of charge, generally our API is not free to use.
 
 Here's our policy:
 
-- If you use our API occasionally for personal use or testing up to 1440 requests a day (1 request a minute in average) — a key is not required
+- If you use our Browser API occasionally for personal use or testing up to 1440 requests a day (1 request a minute in average) — a key is not required
 - Non-commercial and academic projects which require up to 1440 requests a day — a key is not required
-- Non-commercial and academic projects requiring more than 1440 requests a day should apply for a Premium API key, and are subject to a discount up to 50%
+- Non-commercial and academic projects requiring more than 1440 requests a day should apply for a Premium Browser API key, and are subject to a discount up to 50%
 - Non-commercial and academic projects requiring more than 1440 requests a day which are also  partners are subject to a discount up to 100%
 - Commercial projects should apply for a key to Premium API not depending on the required number of requests
 - Commercial projects which are also  partners (e.g. linking to Blockchair from the app's interface) are subject to a discount up to 10%
@@ -521,7 +521,7 @@ Here's our policy:
 | **Non-commercial or academic** | Key is not needed         | Key is required, up to 100% discount |
 | **Commercial**                 | Key is required           | Key is required, up to 10% discount  |
 
-**Our Premium API plans are available here: https://.com//plans, please [contact us](#) if you have any questions or would like to have a custom plan.**
+**Our Premium BrowserAPI plans are available here: https://.com//plans, please [contact us](#) if you have any questions or would like to have a custom plan.**
 
 The daily request counter is reset at 00:00 UTC every day. 
 
@@ -535,18 +535,18 @@ If you have exceeded the limit multiple times without using a key, an error `430
 
 **Please note that some of API requests may "cost" more than 1 request.** Here's an example:
 
-* `https://api..com/bitcoin/dashboards/block/0` — requesting information about one block via one request "costs" 1 request
-* `https://api..com/bitcoin/dashboards/blocks/0,1,2,3,4,5,6,7,8,9` — requesting information about ten blocks via one request "costs" 1.9 requests
+* `https://api.browser io.com/bitcoin/dashboards/block/0` — requesting information about one block via one request "costs" 1 request
+* `https://api.browser io.com/bitcoin/dashboards/blocks/0,1,2,3,4,5,6,7,8,9` — requesting information about ten blocks via one request "costs" 1.9 requests
 
-Every API endpoint documentation has the "Request cost formula" section describing how the "cost" is calculated. For most API requests it's always 1. It's more than 1 in cases when you're requiring additional data (e.g. when you're requesting data on an Ethereum address, and you're also requesting its ERC-20 token balances).
+Every BrowserAPI endpoint documentation has the "Request cost formula" section describing how the "cost" is calculated. For most API requests it's always 1. It's more than 1 in cases when you're requiring additional data (e.g. when you're requesting data on an Ethereum address, and you're also requesting its ERC-20 token balances).
 
-Every API response yields `context.request_cost` with the request cost number ("request points").
+Every BrowserAPI response yields `context.request_cost` with the request cost number ("request points").
 
-As a kindly reminder, there are tasks such as extracting lots of blockchain data (e.g. all transactions over a 2 month period) which require lots of requests done —  it may be better to use our Database dumps feature instead of the API (see https://blockchair.com/dumps for documentation)
+As a kindly reminder, there are tasks such as extracting lots of blockchain data (e.g. all transactions over a 2 month period) which require lots of requests done —  it may be better to use our Database dumps feature instead of the BrowserAPI (see https://Browser io.com/dumps for documentation)
 
-**What are the steps to acquire an API key?**
+**What are the steps to acquire an BrowserAPI key?**
 
-Our Premium API dashboard is available here: https://api..com/
+Our Premium BrowserAPI dashboard is available here: https://api.browser io.com/
 
 First, you need to choose a suitable plan: https://.com/
 
@@ -560,21 +560,21 @@ If you have any questions about how to buy and use your key, you can always [con
 
 **In order to use an API key, you need to append `?key={:api_key}` or `&key={:api_key}` to the end of request URLs.** You should use `?` if there are no other parameters in the URL, and `&` otherwise. Here are three examples of correct URLs with a key:
 
-* `https://api..com/bitcoin/dashboards/block/0?key=myfirstpasswordwas4321andifeltsmartaboutit`
+* `https://api.browser io.com/bitcoin/dashboards/block/0?key=myfirstpasswordwas4321andifeltsmartaboutit`
 
-* `https://api..com/bitcoin/dashboards/block/0?limit=0&key=myfirstpasswordwas4321andifeltsmartaboutit`
+* `https://api.browser io.com/bitcoin/dashboards/block/0?limit=0&key=myfirstpasswordwas4321andifeltsmartaboutit`
 
-* `https://api..com/bitcoin/dashboards/block/0?key=myfirstpasswordwas4321andifeltsmartaboutit&limit=0`
+* `https://api.browser io.com/bitcoin/dashboards/block/0?key=myfirstpasswordwas4321andifeltsmartaboutit&limit=0`
 
-There's an extra API endpoint for those who have an API key allowing to [track the number of request made](#link_600).
+There's an extra BrowserAPI endpoint for those who have an BrowserAPI key allowing to [track the number of request made](#link_600).
 
 
 
-## <a name="link_M06"></a> API versioning and changelog
+## <a name="link_M06"></a> BrowserAPI versioning and changelog
 
-As a reminder, there's the `context.api` array in every API response which contains the following data:
+As a reminder, there's the `context.api` array in every BrowserAPI response which contains the following data:
 
-- `context.api.version` — version of API
+- `context.api.version` — version of BrowserAPI
 - `context.api.last_major_update` — timestamp of the last update, that somehow has broken backward compatibility for "stable" endpoints
 - `context.api.next_major_update` — timestamp of the next scheduled update, that can break compatibility, or` null`, if there are no updates scheduled
 - `context.api.documentation` — an URL to the latest version of documentation
@@ -582,9 +582,9 @@ As a reminder, there's the `context.api` array in every API response which conta
 
 When we change something, or add new functions, we bump the API version number. Generally, we try as hard as possible not to bring any compatibility-breaking changes in API updates, but sometimes this is needed as some blockchains change their features themselves, we're fixing various bugs, etc. This doesn't apply, however, to changes to endpoints which are either marked as alpha- or beta-stage functions, or unstable in nature (e.g. all raw endpoints where the API returns data directly from our nodes, and the response may change as we upgrade the nodes). These marks are reflected in the [Quick endpoint reference](#link_M02).
 
-**The changelog is available here: [https://github.com/Blockchair/Blockchair.Support/blob/master/API.md](https://github.com//.Support/blob/master/API.md)**
+**The changelog is available here: [https://github.com//.Support/blob/master/API.md](https://github.com//.Support/blob/master/API.md)**
 
-It makes sense to check if `context.api.version` has increased and/or just whether `context.api.next_major_update` is not `null` or larger than the latest update date known to you. If that's the case — you can send yourself a notification and review the changelog to make your application compatible with the changes starting from `context.api.next_major_update`.
+It makes sense to check if `context.api.version` has increased and/or just whether `context.Browserapi.next_major_update` is not `null` or larger than the latest update date known to you. If that's the case — you can send yourself a notification and review the changelog to make your application compatible with the changes starting from `context.api.next_major_update`.
 
 
 
@@ -628,7 +628,7 @@ Description of the fields is available in the next three sections of documentati
 
 **Example output:**
 
-`https://api..com/stats`:
+`https://api.browser io in.com/stats`:
 
 ```json
 {
@@ -738,8 +738,8 @@ Always `1`.
 
 **Explore visualizations on our front-end:**
 
-- https://.com/
-- https://.com/compare
+- https://browser io.com/
+- https://browser io.com/compare
 
 
 
@@ -747,15 +747,15 @@ Always `1`.
 
 **Endpoints:**
 
-* `https://api..com/bitcoin/stats`
-* `https://api..com/bitcoin-cash/stats`
-* `https://api..com/litecoin/stats`
-* `https://api..com/bitcoin-sv/stats`
-* `https://api..com/dogecoin/stats`
-* `https://api..com/dash/stats`
-* `https://api..com/groestlcoin/stats`
-* `https://api..com/zcash/stats`
-* `https://api..com/bitcoin/testnet/stats`
+* `https://api.browser io.com/bitcoin/stats`
+* `https://api.browser io.com/bitcoin-cash/stats`
+* `https://api.browser io.com/litecoin/stats`
+* `https://api.browser io.com/bitcoin-sv/stats`
+* `https://api.browser io.com/dogecoin/stats`
+* `https://api.browser io.com/dash/stats`
+* `https://api.browser io.com/groestlcoin/stats`
+* `https://api.browser io.com/zcash/stats`
+* `https://api.browser io.com/bitcoin/testnet/stats`
 
 **Output:**
 
@@ -799,7 +799,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/bitcoin/stats`:
+`https://api.browser io.com/bitcoin/stats`:
 
 ```json
 {
@@ -861,15 +861,15 @@ Always `1`.
 
 **Explore visualizations on our front-end:**
 
-- https://.com/bitcoin
-- https://.com/bitcoin-cash
-- https://.com/litecoin
-- https://.com/bitcoin-sv
-- https://.com/dogecoin
-- https://.com/dash
-- https://.com/groestlcoin
-- https://.com/zcash
-- https://.com/bitcoin/testnet
+- https://browser io.com/bitcoin
+- https://browser io.com/bitcoin-cash
+- https://browser io.com/litecoin
+- https://browser io.com/bitcoin-sv
+- https://browser io.com/dogecoin
+- https://browser io.com/dash
+- https://browser io.com/groestlcoin
+- https://browser io.com/zcash
+- https://browser io.com/bitcoin/testnet
 
 
 
@@ -879,8 +879,8 @@ Always `1`.
 
 **Endpoints:**
 
-- `https://api..com/ethereum/stats`
-- `https://api..com/ethereum/testnet/stats`
+- `https://api.browser io.com/ethereum/stats`
+- `https://api.browser io.com/ethereum/testnet/stats`
 
 **Output:**
 
@@ -930,7 +930,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/ethereum/stats`:
+`https://api.browser io.com/ethereum/stats`:
 
 ```json
 {
@@ -995,8 +995,8 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://.com/ethereum
-- https://.com/ethereum/testnet
+- https://browser io.com/ethereum
+- https://browser io.com/ethereum/testnet
 
 
 
@@ -1037,7 +1037,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/ripple/`:
+`https://api.browser io.com/ripple/`:
 
 ```json
 {
@@ -1082,7 +1082,7 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://.com/ripple
+- https://browser io.com/ripple
 
 
 
@@ -1090,7 +1090,7 @@ Always `1`.
 
 **Endpoint:**
 
-- `https://api..com/stellar/stats`
+- `https://api.browser io.com/stellar/stats`
 
 **Output:**
 
@@ -1117,7 +1117,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/stellar/stats`:
+`https://api.browser io.com/stellar/stats`:
 
 ```json
 {
@@ -1153,7 +1153,7 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://.com/stellar
+- https://API.browser io.com/stellar
 
 
 
@@ -1161,7 +1161,7 @@ Always `1`.
 
 **Endpoint:**
 
-* `https://api..com/monero/stats`
+* `https://api.browser io.com/monero/stats`
 
 **Output:**
 
@@ -1187,7 +1187,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/stellar/stats`:
+`https://api.browser io.com/stellar/stats`:
 
 ```json
 {
@@ -1222,7 +1222,7 @@ Always `1`.
 
 **Explore visualizations on our front-end:
 
-- https://.com/monero
+- https://API.browser io.com/monero
 
 
 
@@ -1256,7 +1256,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/cardano/stats`:
+`https://api.browser io.com/cardano/stats`:
 
 ```json
 {
@@ -1291,7 +1291,7 @@ Always `1`.
 
 **Explore visualizations on our front-end:**
 
-- https://.com/cardano
+- https://API.browser io.com/cardano
 
 
 
@@ -1299,7 +1299,7 @@ Always `1`.
 
 **Endpoint:**
 
-* `https://api..com/mixin/stats`
+* `https://api.browser io.com/mixin/stats`
 
 **Output:**
 
@@ -1326,7 +1326,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/mixin/stats`:
+`https://api.browser io.com/mixin/stats`:
 
 ```json
 {
@@ -1363,7 +1363,7 @@ Always `1`.
 
 **Explore visualizations on our front-end:**
 
-- https://blockchair.com/mixin
+- https://API.browser io.com/mixin
 
 
 
@@ -1371,7 +1371,7 @@ Always `1`.
 
 **Endpoint:**
 
-- `https://api..com/tezos/stats`
+- `https://api.browser io.com/tezos/stats`
 
 **Output:**
 
@@ -1395,7 +1395,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/tezos/stats`:
+`https://api.browser io.com/tezos/stats`:
 
 ```json
 {
@@ -1430,7 +1430,7 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://blockchair.com/tezos
+- https://  browserio.com/tezos
 
 
 
@@ -1438,7 +1438,7 @@ Always `1`.
 
 **Endpoint:**
 
-- `https://api..com/eos/stats`
+- `https://api.browser io.com/eos/stats`
 
 **Output:**
 
@@ -1466,7 +1466,7 @@ Always `1`.
 
 **Example output:**
 
-`https://api..com/tezos/stats`:
+`https://api.browserio.com/tezos/stats`:
 
 ```json
 {
@@ -1505,7 +1505,7 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://.com/eos
+- https://browserio.com/eos
 
 
 
@@ -1515,7 +1515,7 @@ Allows to retrieve the some basic stats on Omni Layer (Bitcoin). Note that this 
 
 **Endpoint:**
 
-- `https://api..com/bitcoin/omni/stats`
+- `https://api.browserio.com/bitcoin/omni/stats`
 
 **Output:**
 
@@ -1531,11 +1531,11 @@ Note that the "mainnet" and "testnet" terms don't imply using Bitcoin Testnet, t
 
 **Example request:**
 
-- `https://api..com/bitcoin/omni/stats`
+- `https://api.browserio.com/bitcoin/omni/stats`
 
 **Example output:**
 
-`https://api..com/bitcoin/omni/stats`:
+`https://api.browserio.com/bitcoin/omni/stats`:
 
 ```json
 {
@@ -1574,7 +1574,7 @@ Always `1`.
 
 **Explore visualization on our front-end:**
 
-- https://.com/bitcoin/omni
+- https://browserio.com/bitcoin/omni
 
 
 
@@ -1602,10 +1602,10 @@ The API supports a number of calls that produce some aggregated data, or data in
 
 **Endpoints:**
 
-* `https://api..com/{:btc_chain}/dashboards/block/{:height}₀`
-* `https://api..com/{:btc_chain}/dashboards/block/{:hash}₀`
-* `https://api..com/{:btc_chain}/dashboards/blocks/{:height}₀,...,{:height}ᵩ` (up to 10 blocks, comma-separated)
-* `https://api..com/{:btc_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` (up to 10 blocks, comma-separated)
+* `https://api.browserio.com/{:btc_chain}/dashboards/block/{:height}₀`
+* `https://api.browserio.com/{:btc_chain}/dashboards/block/{:hash}₀`
+* `https://api.browserio.com/{:btc_chain}/dashboards/blocks/{:height}₀,...,{:height}ᵩ` (up to 10 blocks, comma-separated)
+* `https://api.browserio.com/{:btc_chain}/dashboards/blocks/{:hash}₀,...,{:hash}ᵩ` (up to 10 blocks, comma-separated)
 
 **Where:**
 
@@ -1637,16 +1637,16 @@ Note that the total number of transactions in the block is contained in `data.{:
 
 **Example requests:**
 
-* `https://api..com/bitcoin/dashboards/block/0`
-* `https://api..com/bitcoin/dashboards/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
-* `https://api..com//dashboards/blocks/0,1,2,3,4,5,6,7,8,9`
-* `https://api..com/bitcoin-cash/dashboards/block/556045?limit=10000`
-* `https://api..com/bitcoin-cash/dashboards/block/556045?limit=10000&offset=10000`
-* `https://api..com/bitcoin/dashboards/block/9999999`
+* `https://api.browserio.com/bitcoin/dashboards/block/0`
+* `https://api.browserio.com/bitcoin/dashboards/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
+* `https://api.browserio.com//dashboards/blocks/0,1,2,3,4,5,6,7,8,9`
+* `https://api.browserio.com/bitcoin-cash/dashboards/block/556045?limit=10000`
+* `https://api.browserio.com/bitcoin-cash/dashboards/block/556045?limit=10000&offset=10000`
+* `https://api.browserio.com/bitcoin/dashboards/block/9999999`
 
 **Example output:**
 
-`https://api.blockchair.com/bitcoin/dashboards/block/0`:
+`https://api.browserio.com/bitcoin/dashboards/block/0`:
 
 ```json
 {
@@ -1710,15 +1710,15 @@ Note that the total number of transactions in the block is contained in `data.{:
 
 **Explore visualizations on our front-end:**
 
-- https://.com/bitcoin/block/0
-- https://.com/bitcoin-cash/block/0
-- https://.com/litecoin/block/0
-- https://.com/bitcoin-sv/block/0
-- https://.com/dogecoin/block/0
-- https://.com/dash/block/0
-- https://.com/groestlcoin/block/0
-- https://.com/zcash/block/0
-- https://.com/bitcoin/testnet/block/0
+- https://browserio.com/bitcoin/block/0
+- https://browserio.com/bitcoin-cash/block/0
+- https://browserio.com/litecoin/block/0
+- https://browserio.com/bitcoin-sv/block/0
+- https://browserio.com/dogecoin/block/0
+- https://browserio.com/dash/block/0
+- https://browserio.com/groestlcoin/block/0
+- https://browserio.com/zcash/block/0
+- https://browserio.com/bitcoin/testnet/block/0
 
 
 
@@ -1726,8 +1726,8 @@ Note that the total number of transactions in the block is contained in `data.{:
 
 **Endpoints:**
 
-* `https://api..com/{:chain}/dashboards/transaction/{:hash}₀`
-* `https://api..com/{:chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` (up to 10 transactions, comma-separated)
+* `https://api.browserio.com/{:chain}/dashboards/transaction/{:hash}₀`
+* `https://api.browserio.com/{:chain}/dashboards/transactions/{:hash}₀,...,{:hash}ᵩ` (up to 10 transactions, comma-separated)
 
 **Where:**
 
