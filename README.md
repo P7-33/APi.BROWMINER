@@ -16,10 +16,13 @@ Security
 Insights
  3.0.5.0 
 https://choosealicense.com/licenses/mit/
-https://composer.github.io/installer.sha384sum
+
 luc1an24 Update Plugins.md
 …
- 1 contributor
+ 1 contributor:
+https://composer.github.io/installer.sha384sum
+
+
 75 lines (56 sloc)  3.44 KB
 RawBlame
  
