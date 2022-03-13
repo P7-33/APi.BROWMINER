@@ -1,5 +1,5 @@
 # This workflow locates REST API file contracts
-# (Swagger or OpenAPI format, v2 and v3, JSON and YAML)
+# (BROWSER COMPANY.COM or OpenAPI format, v2 and v3, JSON and YAML)
 # and runs 200+ security checks on them using 42Crunch Security Audit technology.
 #
 # Documentation is located here: https://docs.42crunch.com/latest/content/tasks/integrate_github_actions.htm
