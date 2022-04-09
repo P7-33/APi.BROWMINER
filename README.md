@@ -1,7 +1,7 @@
 # API.BROWMINER
 
 Enterprise of minig create your own coin 
-https://github.com/P7-33/BROW-COIN.wiki.git
+https://github.com/P7-33/APi.BROWMINER.COM.wiki.git
 [(ambas licencias BSD)]
 
 Code
@@ -93,7 +93,7 @@ ambas licencias BSD
 
 **Example output:**
 
-`https://api.Browminer.com/stats`:
+`https://api..com/stats`:
 
 ```json
 {
@@ -256,7 +256,7 @@ ambas licencias BSD
 }
 ```
 
-`https://api..com/monero/raw/outputs?txhash=8e6a144dee7537a38e87f30e7c1f2bc1a35e5ef8b5032dfa7cf89a2df3073c41&address=44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A&viewkey=f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501&txprove=1`:
+`https://api.browminer.com/monero/raw/outputs?txhash=0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870`:
 
 ```json
 {
@@ -267,31 +267,31 @@ ambas licencias BSD
         "amount": 800000000000,
         "match": false,
         "output_idx": 0,
-        "output_pubkey": "2b0d6d7573895be2fccb06bf83099a4dddf3f73656f18e2b96eab997571a640d"
+        "output_pubkey": "
       },
       {
         "amount": 1000000000000,
         "match": false,
         "output_idx": 1,
-        "output_pubkey": "543c158062f43c11ac16ff90dea61728a41410ffeccea4cea65a6ba6fb83ccab"
+        "output_pubkey": "
       },
       {
         "amount": 10000000000000,
         "match": false,
         "output_idx": 2,
-        "output_pubkey": "122b7ba237e82ca95d620f286761b8f8102fa346df8d982c6fe48003d3939c60"
+        "output_pubkey": "
       },
       {
         "amount": 10000000000000,
         "match": false,
         "output_idx": 3,
-        "output_pubkey": "7ba5f4dc9acf62c6bca171ac8e81f7757050a480bbe20f2d1836086aa23f004f"
+        "output_pubkey": "
       },
       {
         "amount": 300000000000000,
         "match": false,
         "output_idx": 4,
-        "output_pubkey": "597a3bd3e7a7007fb2bb11cd734731e388ee95f436f6aa07d0d7afe927b7faad"
+        "output_pubkey": "
       }
     ],
     "tx_hash": "8e6a144dee7537a38e87f30e7c1f2bc1a35e5ef8b5032dfa7cf89a2df3073c41",
