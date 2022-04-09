@@ -1,4 +1,4 @@
-# API.BROWMINER
+:# API.BROWMINER
 
 Enterprise of minig create your own coin 
 https://github.com/P7-33/APi.BROWMINER.COM.wiki.git
@@ -256,7 +256,7 @@ ambas licencias BSD
 }
 ```
 
-`https://api.browminer.com/monero/raw/outputs?txhash=0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870`:
+`https://api.browminer.com/BW/raw/outputs?txhash=0x8d490e535678e9a24360e955d75b27ad307bdfb97a1dca51d0f3035dcee3e870`:
 
 ```json
 {
