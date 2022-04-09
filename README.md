@@ -1,7 +1,7 @@
-# API.BROWS-MINER
+# API.BROWMINER
 
 Enterprise of minig create your own coin 
-https://github.com/P7-33/BROWS-COIN.wiki.git
+https://github.com/P7-33/BROW-COIN.wiki.git
 [(ambas licencias BSD)]
 
 Code
@@ -93,7 +93,7 @@ ambas licencias BSD
 
 **Example output:**
 
-`https://api..com/stats`:
+`https://api.Browminer.com/stats`:
 
 ```json
 {
