@@ -1,4 +1,4 @@
-# MATRIX-MINER
+# BROWS-MINER
 
 Enterprise of minig create your own coin 
 https://github.com/P7-33/BROWS-COIN.wiki.git
